@@ -38,7 +38,7 @@ class Round {
 // possible logic for extension 
 
   //  if (finalPercent <= 89) {
-  // this.takeTurn()    - maybe?
+  // this.takeTurn(guess)    - maybe? or maybe game.start() ?
   // } else if (finalPercent >= 90) {
   //  console.log(`** Round Over! ** You answered ${Math.round(finalPercent)}% of questions correctly!`)
    // return `** Round Over! ** You answered ${Math.round(finalPercent)}% of questions correctly!`

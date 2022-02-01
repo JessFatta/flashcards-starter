@@ -3,6 +3,10 @@ class Deck{
     this.cards = cards;
     this.deckLength = 3
   }
+
+  countCards() {
+    return this.deckLength;
+  }
 }
 
 
