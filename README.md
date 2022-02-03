@@ -2,7 +2,7 @@
 -------
 ### Overview
 
-FlashCards is a game that simulates a trivia game in the form of 'flashcards'. This game is played through the command line and is made entirely in JavaScript by utilizing Test Driven Development.
+FlashCards simulates a trivia game in the form of 'flashcards'. This game is played through the command line and is made entirely in JavaScript by utilizing Test Driven Development.
 
 - The user is first prompted with questions
 - The user then selects their answer
