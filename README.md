@@ -1,71 +1,52 @@
-# FlashCards Starter Kit
+# FlashCards!
+-------
+### Overview
 
-## Fork This Repo
+FlashCards is a game that simulates a question and answer game in the form of "flashcards". This game is played through the command line and is made entirely in JavaScript by utilizing Test Driven Development.
 
-On the top right corner of this page, click the **Fork** button.
+- The user is first prompted with questions
+- The user then selects their answer
+- Finally, at the end of the game, the user will see a percentage of how many questions were answered correctly.
+ 
+![](https://media.giphy.com/media/81p7vRkKRlreNzgl1X/giphy.gif)
 
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+---------
+### Installation Instructions
+ - Fork and Clone [this](https://github.com/JessFatta/flashcards-starter) repository
+ - `CD` into the directory
+ - Run `node index.js` in your command line to play
 
 
-## Where to Add Your Code
+-----------------
+### Wins & Losses
 
-### JavaScript
+After the game has been completed, the user will see a message in the command line that displays a percentage of correct guesses.
 
-**Create all of your feature code files in the `src` directory.**
+-----------
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+### Future Features
 
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
+ - Add functionality so that a score of less than 90% will automatically prompt the user to start over 
+ - Review incorrect answers and continued game play that prompts only the questions that the user previously got incorrect
 
 
+---------
+
+### Contributors
+
+Jessica Fatta 
+https://github.com/JessFatta
+
+--------
+### Links
+
+Repository Link: https://github.com/JessFatta/flashcards-starter
+
+------------
+### Architecture & Technologies Used
+ I created five files in each directory, bringing the total to 10.
+ In the test directory: Card-test.js, Deck-test.js, Game-test.js, Round-test.js, and Turn-test.js
+ In the SRC directory: Card.js, Deck.js, Game.js, Round.js, and Turn.js
+ Additionally I was provided with a data.js file and a util.js file.
+ 
+ This project is done completely in JavaScript and uses Test Driven Development
